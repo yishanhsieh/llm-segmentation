@@ -7,7 +7,7 @@ Done - Web scraping from Google reviews, and got 607 pairs of reviews and rating
 ### Embeddings
 
 - use Word2Vec to create a vector for each review. (v)
-- normalize ratings (0~5) to align with the embedding scale. (make it 0~1) (v)
+- normalize ratings (0-5) to align with the embedding scale. (make it 0-1) (v)
 - concatenate the embedding + rating into one vector. (v)
 - Other embeddings:
   - Llama (waiting for approval)
