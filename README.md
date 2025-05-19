@@ -1,32 +1,40 @@
-# llm-segmentation
+# Customer Segmentation Using Transformer-based Models and Word2Vec Embeddings on Google Reviews
+
+2025 Spring - LLM final project
+
+Indiana University Bloomington, M.S.Informatics
 
 ### data preparation
 
-Done - Web scraping from Google reviews, and got 607 pairs of reviews and ratings. (v)
+Web scraping from Google reviews, and got 607 pairs of reviews and ratings.
 
 ### Embeddings
 
-- use Word2Vec to create a vector for each review. (v)
-- normalize ratings (0-5) to align with the embedding scale. (make it 0-1) (v)
-- concatenate the embedding + rating into one vector. (v)
+- use Word2Vec to create a vector for each review.
+- normalize ratings (0-5) to align with the embedding scale. (make it 0-1)
+- concatenate the embedding + rating into one vector.
 - Other embeddings:
-  - Llama (waiting for approval)
-  - OpenAI
-  - BERT
+  - Llama 2-7b-chat-hf
+  - Sentence transformer BERT(all-mpnet-base-v2)
+  - Sentence transformer BERT(all-MiniLM-L6-v2)
   - falcon-7b
 
 ### K-means clustering
 
 - choose the number of clusters
-- Elbow method -> find ideal k
-- PCA --> visualize to find ideal k
-
-### clustering test
-
-- Silhouette score
+- Silhouette score --> get ideal k
+- PCA --> visualize to clustering with ideal k
 
 ### Simulated test
 
 - generate marketing strategies for the n groups of users
-- use Gpt to impersonalize the three customer
+- use GPT to impersonalize the three customer
 - AI customers rate the strategies.
+
+## Result
+
+- If you're interested in the final report, please check [here](https://drive.google.com/file/d/1Y6opZvpWeFPsV9UVdH9uJ-HPSKIvXNsY/view?usp=sharing)
+
+## Citation
+
+Please cite this work if you plan to reference it in your project.
