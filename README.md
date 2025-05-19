@@ -34,6 +34,7 @@ Web scraping from Google reviews, and got 607 pairs of reviews and ratings.
 ## Result
 
 - If you're interested in the final report, please check [here](https://drive.google.com/file/d/1Y6opZvpWeFPsV9UVdH9uJ-HPSKIvXNsY/view?usp=sharing)
+- The report was submitted on May 4th, 2025.
 
 ## Citation
 
